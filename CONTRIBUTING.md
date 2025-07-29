@@ -1,24 +1,33 @@
 # Contributing to LearnHub
 
 Thank you for being so interested in contributing to **LearnHub**! We welcome contributions from everyone, whether you're a beginner or an experienced developer.
+## 📌 Before you start 
+
+-- Make sure you've read the README 
+
+--Familiarize yourself with the project structure and purpose
+
+--Check existing issues before opening a new one
+
 
 ## How to Contribute
 
 ### 1. Fork the Repository
-Start by forking the repository to your GitHub account.
+Click the Fork button on the top-right of the repository page at your GitHub account.
 
 ### 2. Clone Your Fork
 Clone the repository to your local machine using:
 
 ```bash
 $ git clone https://github.com/<your-username>/LearnHub.git
+cd LearnHub
 ```
 
 ### 3. Create a New Branch
 Create a branch for your contribution:
 
 ```bash
-$ git checkout -b <branch-name>
+$ git checkout -b feature/your-feature-name
 ```
 
 ### 4. Make Your Changes
@@ -26,27 +35,47 @@ Add new pages, new algorithms, improve documentation, or fix any issues. Be sure
 - Document your code with clear comments
 - Ensure that your solution is correct and efficient
 
-### 5. Commit Your Changes
+### 5. Commit and push 
 Commit your changes with a descriptive commit message:
 
 ```bash
-$ git commit -m "Added [the changes]"
+$ git add .
+git commit -m "Add: short meaningful message"
+git push origin feature/your-feature-name
 ```
-
-### 6. Push Your Fork
-Push your changes to your forked repository:
-
-```bash
-$ git push origin <branch-name>
-```
-
-### 7. Create a Pull Request
-Go to the original repository and create a Pull Request (PR). Make sure to describe what you’ve changed and why.
+### 6.Open a Pull Request
+--Navigate to your fork and click **New Pull Request**.
 
 ## Contribution Guidelines
 - Keep your code clean and well-documented.
 - Stick to best practices for the programming language you are contributing in.
 - Respect the folder structure and organization of the repository.
+- Use const and let instead of var
+- Format code with Prettier (or ensure readable spacing/indentation)
+- Keep components modular and well-documented with comments
+- Reuse components where possible to maintain consistency
+
+## 🔍 Pull Request Checklist
+
+--✅ Code compiles and runs without errors
+--✅ Properly tested (if applicable)
+--✅ Follows project structure and naming conventions
+--✅ Linked to an open issue (if solving one)
+--✅ Includes a meaningful PR title and description
+
+## 🐛 Reporting Bug
+
+--A clear and descriptive title
+
+--Steps to reproduce the bug
+
+--Expected vs actual behavior
+
+--Screenshots or logs if applicable
+
+
+
+
 
 ---
 
